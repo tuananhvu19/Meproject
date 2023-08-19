@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main(){
+int main()
     int n, sum;
     cin >> n;
     sum = 0;
@@ -10,6 +10,8 @@ int main(){
         sum += i;
 
     }
-    cout << sum;
+    if (sum % 10 == 0){
+        cout << "tong chia het cho 10";
+    }
     return 0;
 }
